@@ -1,0 +1,135 @@
+.header {
+  background-color: darkseagreen;
+  padding: 70px;
+  position: absolute;
+  width: 100%;
+}
+
+.title {
+  font-family: "Playfair Display", serif !important;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 60px;
+}
+
+.subtitulo {
+  font-family: "Playfair Display", serif !important;
+  font-size: 20px;
+}
+.lista {
+  list-style-type: none !important;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0;
+  background-color: #e2e2e2;
+}
+
+p {
+  color: black;
+  font-size: 10pt;
+  font-family: "Poppins", sans-serif;
+  padding-left: 30px;
+  margin-right: 50px;
+}
+
+.header-content {
+}
+
+.subheader {
+  position: absolute;
+  margin-top: 400px;
+  margin-bottom: 0px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.resumo {
+  z-index: initial;
+  padding: 20px;
+  background-color: cadetblue;
+  color: #fff;
+}
+
+.resumotitulo {
+  margin-left: -50px;
+  margin-bottom: -30px;
+  margin-top: -15px;
+  color: #000;
+  position: relative;
+  font-family: "Playfair Display", serif !important;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 70px;
+}
+
+.paragrafoResumo {
+  color: #fff;
+  padding: 20px;
+}
+
+.leftSidebar {
+  width: 340px;
+  position: absolute;
+  z-index: 1;
+  top: 680px;
+  left: 15px;
+  background: darkslategrey;
+  color: #fff;
+  overflow: auto;
+  padding: 20px;
+}
+.contact {
+  color: white;
+  font-size: 10pt;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  align-content: center;
+}
+
+.maincontent {
+  padding: 50px;
+  margin-left: 440px;
+  font-size: 28px;
+  padding: 0px 10px;
+  position: absolute;
+  margin-top: 650px;
+}
+.subtituloPrincipal {
+  background-color: darkslategray;
+  margin-top: -60px;
+}
+
+.subtituloTexto {
+  color: #fff;
+  padding: 5px;
+}
+
+.colunas {
+  columns: 2;
+  column-gap: 2em;
+}
+
+.coluna {
+  color: black;
+  font-size: 12pt;
+  font-weight: 200;
+  font-family: "Poppins", sans-serif;
+}
+
+.paginacao {
+  margin-right: 100px;
+  margin-left: 20px;
+}
+
+h3 {
+  font-family: "Playfair Display", serif !important;
+  color: #000;
+  font-size: 16pt;
+  margin-top: 50px;
+}

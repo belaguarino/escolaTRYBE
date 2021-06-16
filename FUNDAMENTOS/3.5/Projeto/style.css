@@ -1,0 +1,260 @@
+body {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0;
+  background-color: #e4e4e4;
+}
+
+nav {
+  font-family: "Poppins", sans-serif;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+}
+.menu ul li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  float: right;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.menu ul li a:hover {
+  color: powderblue;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+ul {
+  list-style-type: none !important;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  color: black;
+  font-size: 12pt;
+  font-family: "Poppins", sans-serif;
+}
+
+/* BOTÃO DO MODAL TIPO POPUP */
+
+.abrir-popup {
+  text-decoration: none;
+  background-image: linear-gradient(
+    to right,
+    #5abae0 0%,
+    #61b874 51%,
+    #2b9cc9 100%
+  );
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  font-size: 14pt;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+}
+
+.abrir-popup:hover {
+  background-position: right center;
+}
+
+/* FINAL DO MODAL TIPO POPUP */
+
+/* CONTEÚDO DO MODAL TIPO POPUP */
+
+#popup {
+  top: 0px;
+  position: fixed;
+  left: 0px;
+  width: 100vw;
+  height: 50vw;
+  background: rgb(0, 0, 0, 0.75);
+  display: none;
+}
+
+#popup .conteudo-popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  padding: 10px 20px;
+  background: #eee;
+}
+
+#popup a.fechar {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 20pt;
+  font-weight: 200;
+  text-decoration: none;
+}
+#popup:target {
+  display: block;
+}
+
+header {
+  padding: 10%;
+  background-image: url("background.png");
+  background-size: 100%;
+}
+.texto-inicial {
+  width: 65%;
+}
+
+.lacraia-foto {
+  float: right;
+  width: 35%;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Playfair Display", serif !important;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 70px;
+}
+
+h2 {
+  font-family: "Playfair Display", serif !important;
+  color: #000;
+  font-size: 20pt;
+}
+.subtituloPrincipal {
+  margin-left: -70px;
+  margin-top: 20px;
+  padding-left: 60px;
+  background: linear-gradient(to top, rgb(141, 224, 235) 50%, transparent 50%);
+  color: white !important;
+  width: fit-content;
+}
+
+h3 {
+  font-family: "Playfair Display", serif !important;
+  color: #000;
+  font-size: 16pt;
+  margin-top: 50px;
+  background: linear-gradient(to top, rgb(141, 224, 235) 50%, transparent 50%);
+  width: fit-content;
+}
+h4 {
+  font-family: "Playfair Display", serif !important;
+  color: #000;
+  font-size: 14pt;
+  margin-top: 50px;
+  width: fit-content;
+}
+
+#sidebar {
+  width: 350px;
+  padding: 20px;
+  float: right;
+}
+
+.colunas {
+  columns: 2;
+  column-gap: 2em;
+}
+
+.coluna {
+  color: black;
+  font-size: 10pt;
+  font-weight: 200;
+  font-family: "Poppins", sans-serif;
+}
+.conteudo-principal {
+  width: 600px;
+}
+main {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+footer {
+  background-color: powderblue;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.colunarodape {
+  columns: 2;
+  column-gap: 10em;
+  display: flex;
+  justify-content: center;
+}
+
+.lista-rodape .fa {
+  padding: 5px;
+}
+
+.lista-rodape .fa:hover {
+  padding: 5px;
+  transition: 0.5s;
+  color: plum;
+}
+
+.social {
+  text-align: center;
+}
+
+.social li {
+  display: inline-block;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.social a {
+  text-decoration: none;
+}
+
+.social .fa {
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  padding: 10px;
+}
+
+.fa-instagram {
+  background: #c32aa3;
+  color: white;
+  padding: 10px;
+}
+
+.fa-github {
+  background: #6cc644;
+  color: white;
+  padding: 10px;
+}
+
+.social .fa-linkedin {
+  background: #0077b5;
+  color: white;
+  padding: 10px;
+}
