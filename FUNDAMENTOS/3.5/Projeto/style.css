@@ -14,7 +14,7 @@ nav {
   width: 100%;
 }
 .menu ul li {
-  display: inline-block;
+  display: block;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 10px;
@@ -51,6 +51,7 @@ p {
 /* BOTÃO DO MODAL TIPO POPUP */
 
 .abrir-popup {
+  display: block;
   text-decoration: none;
   background-image: linear-gradient(
     to right,
@@ -68,6 +69,8 @@ p {
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   border-radius: 10px;
+  margin-top: 10px;
+  width: fit-content;
 }
 
 .abrir-popup:hover {
@@ -137,13 +140,40 @@ h2 {
   color: #000;
   font-size: 20pt;
 }
+
+#referencias a {
+  text-decoration: none;
+  color: #000;
+}
+
+#referencias a:hover {
+  text-decoration: none;
+  color: #c32aa3;
+  transition: 0.5s;
+}
+
+.marca-texto {
+  background: linear-gradient(to top, rgb(253, 223, 239) 50%, transparent 50%);
+  font-weight: 600;
+}
+
 .subtituloPrincipal {
   margin-left: -70px;
   margin-top: 20px;
   padding-left: 60px;
-  background: linear-gradient(to top, rgb(141, 224, 235) 50%, transparent 50%);
+  background: linear-gradient(to top, rgb(185, 232, 238) 50%, transparent 50%);
   color: white !important;
   width: fit-content;
+}
+
+#nomeCientifico {
+  font-style: italic;
+  font-weight: 200;
+  font-family: "Poppins", sans-serif;
+}
+
+.fa-angle-double-right {
+  padding: 5px;
 }
 
 h3 {
@@ -151,7 +181,7 @@ h3 {
   color: #000;
   font-size: 16pt;
   margin-top: 50px;
-  background: linear-gradient(to top, rgb(141, 224, 235) 50%, transparent 50%);
+  background: linear-gradient(to top, rgb(198, 239, 245) 50%, transparent 50%);
   width: fit-content;
 }
 h4 {
@@ -162,7 +192,7 @@ h4 {
   width: fit-content;
 }
 
-#sidebar {
+aside {
   width: 350px;
   padding: 20px;
   float: right;
@@ -179,12 +209,17 @@ h4 {
   font-weight: 200;
   font-family: "Poppins", sans-serif;
 }
-.conteudo-principal {
+article {
   width: 600px;
 }
 main {
   margin-left: 15%;
   margin-right: 15%;
+}
+
+.imagem-session {
+  float: right;
+  width: 250px;
 }
 
 footer {
@@ -193,25 +228,8 @@ footer {
   margin-top: 50px;
 }
 
-.colunarodape {
-  columns: 2;
-  column-gap: 10em;
-  display: flex;
-  justify-content: center;
-}
-
-.lista-rodape .fa {
-  padding: 5px;
-}
-
-.lista-rodape .fa:hover {
-  padding: 5px;
-  transition: 0.5s;
-  color: plum;
-}
-
 .social {
-  text-align: center;
+  float: right;
 }
 
 .social li {
@@ -220,8 +238,6 @@ footer {
   width: 50px;
   text-align: center;
   text-decoration: none;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .social a {
@@ -231,7 +247,7 @@ footer {
 .social .fa {
   font-size: 30px;
   width: 30px;
-  text-align: center;
+
   text-decoration: none;
 }
 
@@ -257,4 +273,18 @@ footer {
   background: #0077b5;
   color: white;
   padding: 10px;
+}
+
+table {
+  border: 1px solid white;
+  width: 320px;
+  font-family: "Poppins", sans-serif;
+  font-size: 10pt;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.copyright {
+  text-transform: uppercase;
 }
